@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo en España</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tiempo en España</h1>
+    </header>
+
+    <section>
+        <h2>Selecciona una comunidad autónoma</h2>
+        <select id="comunidades">
+            <option value="">Selecciona la comunidad autónoma</option>
+        </select>
+    </section>
+
+    <section>
+        <h2>Selecciona una provincia</h2>
+        <select id="provincias">
+            <option value="">Selecciona la provincia</option>
+        </select>
+    </section>
+
+    <section>
+        <h2>Selecciona un municipio</h2>
+        <select id="municipios">
+            <option value="">Selecciona el municipio</option>
+        </select>
+    </section>
+
+    <section id="datos">
+        <h2>Datos del tiempo</h2>
+        <p id="temperatura"></p>
+        <p id="humedad"></p>
+        <p id="viento"></p>
+        <p id="estadoCielo"></p>
+        <p id="tempMax"></p>
+        <div>
+            <button>
+                <a href="index.html">Volver al inicio</a>
+            </button>
+        </div>
+    </section>    
+    
+    <script src="script.js"></script>
+</body>
+</html>
